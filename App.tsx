@@ -141,7 +141,7 @@ const App : React.FC = () : React.ReactElement => {
     }, (err) => console.log(err));
     setDialogi({ ...dialogi, auki: false, teksti: "" });
   };
-  
+
   const lisaaRuoka = () : void => {
 
     db_ruoka.transaction(
